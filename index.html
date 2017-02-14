@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>微博视频解析工具</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.png">
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+    <div role="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-header">
+                      <h1>微博视频解析工具</h1>
+                  </div>
+              </div>
+              <div class="col-md-10">
+                <div class="form-group">
+                <input type="text" class="form-control" placeholder="这里输入url" id="load-url">
+                </div>
+            </div>
+            <div class="col-md-2">
+                <button type="button" class="btn btn-primary btn-block" id="load-btn">解析</button>
+            </div>
+            <br>
+            <div class="col-md-12">
+                <div id="msg">
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">Suport</div>
+                    <ul class="list-group">
+                        <a href="http://t.cn/RJVAFrq" class="list-group-item" target="_blank">http://t.cn/RJVAFrq<span class="label label-default" style="float: right;">短地址</span></a>
+                        <a href="http://weibo.com/tv/v/EuTHjfXeA?fid=1034:a47fc96371ccc7d44925480ffad6bc9c" class="list-group-item" target="_blank">http://weibo.com/tv/v/EuTHjfXeA?fid=1034:a47fc96371ccc7d44925480ffad6bc9c<span class="label label-default" style="float: right;">微博视频</span></a>
+                    </ul>
+                </div>
+                <div id="content">
+                    <img src="img/thumbnail.jpg"  class="img-responsive img-rounded">
+                </div>
+                <br>
+                <div class="well">
+                    解析的视频归视频上传者所有。本工具只提供视频下载地址，与视频内容无关。
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
